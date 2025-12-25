@@ -10,3 +10,17 @@
 .animate-fade {
   animation: fade 0.8s ease-in-out;
 }
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide {
+  animation: slideUp 0.6s ease-out;
+}
