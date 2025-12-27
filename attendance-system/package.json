@@ -1,1 +1,5 @@
-
+"homepage": "https://wfsn1426-blip.github.io/attendance-system",
+"scripts": {
+  "build": "vite build",
+  "deploy": "gh-pages -d dist"
+}
