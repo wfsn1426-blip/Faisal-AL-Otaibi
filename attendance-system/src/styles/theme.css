@@ -33,3 +33,17 @@
   --text-sub: #6B7280;    /* رمادي */
   --bg-main: #F9FAFB;     /* خلفية */
 }
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade {
+  animation: fade 0.5s ease-out;
+}
